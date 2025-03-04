@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(186, 185, 185);
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    width: 75%;
+    gap: 600px;
+    justify-content: space-evenly;
+}
+.signature{
+    display: flex;
+    align-items: center;
+    font-family: 'Alex Brush';
+    font-weight: 400;
+    font-style: normal;  
+    font-size: x-large;    
+}
+.navItems{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.navItems span{
+    font-size:larger;
+    font-weight: lighter;
+}
+.studentAvatar img{
+    margin-top: 20px;
+    border: none;
+    border-radius: 50%;
+}
+.studentData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px 0px;
+    margin-bottom: 50px;
+}
+.studentIntro{
+    height: 75%;
+    width: 67%;
+    padding: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+    /* background-color: rgb(41, 41, 41); */
+    border-radius: 10px;
+    line-height: 1.8;
+}
+.skills h2{
+    font-weight: 100;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.resumeCV button{
+    padding: 15px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.download:hover{
+    transform: scale(1.1);
+}
+.resumeCV span{
+    font-size: 1.05rem;
+    font-weight: bolder;
+    color: black;
+}
+.project{
+    text-align: center;
+}
+.project h2{
+    color: rgb(68, 68, 238);
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+.leetstats, .vgg{
+    height: 70%;
+    width: 50%;
+    gap: 30px;
+}
+.leetstats, .vgg h3{
+    font-size: 1.2rem;
+}
+.project h3{
+    text-align: left;
+    text-decoration: underline;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.description{
+    height: 90%;
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 30px;
+ }
+ .footernav{
+    display: flex;
+    flex-direction: column;
+ }
+  
+  .footernav a, .social-icons a {
+    text-align: left;
+    color: #bbb;
+    margin: 5px 10px;
+    text-decoration: dotted;
+    transition: 0.3s;
+  }
+  
+  nav a:hover, .social-icons a:hover {
+    color: #fff;
+  }
+  .social-icons{
+    display: flex;
+    flex-direction: column;
+  }
+  

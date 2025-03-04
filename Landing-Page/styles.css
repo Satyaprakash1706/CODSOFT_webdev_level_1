@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6fff2;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #d4edda;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #2d6a4f;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.shop {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+.discount {
+    background-color: #ffb703;
+    color: #fff;
+}
+
+/* Why Choose Us */
+.why-choose {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../Assets/bg1.jpg") no-repeat center center / cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/* Ensuring Text Appears Over Background */
+.about-us, .features {
+    position: relative;
+    z-index: 1;
+    max-width: 80%;
+}
+
+/* About Us */
+.why-choose h1 {
+    font-size: 2rem;
+    color: #2d6a4f;
+}
+
+.why-choose p {
+    font-size: larger;
+}
+
+.about-info {
+    text-align: justify;
+    max-width: 700px;
+}
+
+/* Features */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #e9f5e9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Featured Products */
+.featured {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f6fff2;
+}
+
+.featured h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    height: 140.2px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2d6a4f;
+}
+
+.buy {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #d4edda;
+    padding: 20px;
+    margin-top: 20px;
+}
