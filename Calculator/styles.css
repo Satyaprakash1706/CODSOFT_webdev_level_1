@@ -29,8 +29,9 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.calculatorScreen {
+.calculatorDisplay {
     height: 70px;
     width: 90%;
     margin-top: 20px;
@@ -45,8 +46,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-left: 20px;
 }
-.calculatorScreen input{
+.calculatorDisplay input{
     margin: 0px;
 }
 .numberKeys{
